@@ -33,6 +33,11 @@ section {
     margin-bottom: 0.5rem;
 }
 
+.contact__option-icon-messenger {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
 .contact__option a {
     margin-top: 0.7rem;
     display: inline-block;

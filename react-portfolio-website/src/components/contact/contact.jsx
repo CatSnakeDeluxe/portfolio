@@ -2,6 +2,7 @@ import React from 'react'
 import './contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
 import {BsMessenger} from 'react-icons/bs'
+import {AiOutlinePhone} from 'react-icons/ai'
 
 const Contact = () => {
   return (
@@ -24,10 +25,19 @@ const Contact = () => {
             <a href="mailto:johanna.bw1@gmail.com">Send a message</a>
 
           </article>
+          
+          <article className='contact__option'>
+
+            <AiOutlinePhone className='contact__option-icon'/>
+
+            <h4>Phone</h4>
+            <h5>072-725 06 62</h5>
+
+          </article>
 
           <article className='contact__option'>
 
-            <BsMessenger className='contact__option-icon'/>
+            <BsMessenger className='contact__option-icon-messenger'/>
 
             <h4>Messenger</h4>
             <h5>Johanna Backlund</h5>
