@@ -1,0 +1,16 @@
+footer {
+    background: var(--color-primary);
+    text-align: center;
+    padding-bottom: 6rem;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+footer a {
+    color: var(--color-bg-variant);
+}
